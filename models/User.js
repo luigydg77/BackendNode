@@ -8,3 +8,7 @@ const UserSchema= new Schema({
     role:{type: String}
 
 })
+
+module.exports=User =mongoose.model('User', UserSchema);
+
+//7jbMpvivVacsPNHr
